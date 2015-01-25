@@ -1,5 +1,7 @@
 
-source $HOME/Projects/dotfiles/antigen/antigen.zsh
+export ZSH=$HOME/Projects/dotfiles
+
+source $ZSH/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
@@ -20,3 +22,6 @@ antigen theme agnoster
 # Tell antigen that you're done.
 antigen apply
 
+
+
+source $ZSH/ruby/rbenv.zsh
