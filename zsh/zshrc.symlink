@@ -1,6 +1,8 @@
 
 export ZSH=$HOME/Projects/dotfiles
 
+
+source $ZSH/zsh/checks.zsh
 source $ZSH/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
